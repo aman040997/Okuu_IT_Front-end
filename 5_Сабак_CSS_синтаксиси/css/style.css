@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(156, 134, 134);
+}
+
+.text p{
+    font-size: 20px;
+    color: rgb(253, 9, 9);
+    border: 3px solid  cornflowerblue;
+}
+
+.text span{
+    color: aqua;
+
+}
