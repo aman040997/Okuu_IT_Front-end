@@ -1,0 +1,63 @@
+body{
+    font-size: 20px;
+}
+
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font_size_30{
+    font-size: 30px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.color_red{
+    color: red;
+}
+
+.font700{
+    font-weight: 700;
+}
+
+.text_right{
+    text-align: right;
+}
+
+.text_left{
+    text-align: left;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.dicoration{
+    text-decoration: underline;
+}
+
+.shadow{
+    text-shadow: 0.5px 0.5px 0.5px #f80404
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.ident{
+    text-indent: 300px;
+}
+
+.ispace{
+    letter-spacing: 4px;
+}
+
+.wspace{
+    word-spacing: 30px;
+}
+
+.whitespace{
+    white-space: nowrap;
+}
