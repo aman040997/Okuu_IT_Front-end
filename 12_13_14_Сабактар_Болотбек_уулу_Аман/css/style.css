@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(128, 141, 153);
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    color: blue;
+}
+
+nav li{
+    margin: 20px
+}
+
+.div-menu{
+    border: 1px solid rgb(35, 18, 185);
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    align-items: center;
+
+}
+
+.div-menu .logo{
+    /* border: 1px solid rgb(9, 3, 58); */
+    padding: 20px;
+
+}
+
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid rgb(10, 30, 204); */
+    list-style: none;           /*Маркерлерди алып сал*/
+    padding-left: 0;            /* Сол жактагы боштуктарды алуу*/
+    
+}
+
+.menu ul a{
+    text-decoration: none;      /*Астындагы сызыктарды алуу */
+    font-weight:bold;
+    list-style-type: none;
+}
+
+.menu li a:hover{
+    background-color: rgba(255, 255, 255, 0.473);
+    color: rgb(0, 8, 5);
+}
+
+
+.menu ul{
+   
+}
+
+.menu ul li{
+
+}
+
+
+
+.phone{
+    font-size: 110%;
+    color: blue;
+    padding: 20px 20px;
+}
+
+.main_block{
+    border: 5px solid rgb(179, 9, 247);
+    margin: 20px 20px; */
+    padding: 20px 20px;
+
+}
+
+.main{
+    border: 1px solid rgb(76, 224, 17);
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    padding: 20px 20px;
+
+}
+
+.articles{
+    border: 1px solid rgb(243, 98, 14);
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.asaids{
+    border: 1px solid rgb(219, 4, 247);
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+
+aside ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.473);
+    color: rgb(0, 8, 5);
+
+}
+
+.footer{
+    /* display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center; */
+    border: 1px solid rgb(247, 4, 4);
+    margin: 20px 20px;
+    padding: 20px 20px;
+
+}
+.footer p{
+    border: 1px solid rgb(247, 4, 4);
+    text-align: center;
+
+}
+
+
+
+@media (max-width: 700px) {
+
+    .div-menu{
+        border: 10px solid rgb(32, 173, 32);
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: stretch ; */
+        /* align-items: center; */
+        margin: 20px 20px ;
+    
+    }
+
+    .menu{
+        display: flex;
+        flex-direction:column;
+        /* border: 1px solid rgb(10, 30, 204); */
+        list-style: none;           /*Маркерлерди алып сал*/
+        padding-left: 0;            /* Сол жактагы боштуктарды алуу*/
+        
+    }
+    
+    .menu ul a{
+        text-decoration: none;      /*Астындагы сызыктарды алуу */
+        font-weight:bold;
+        list-style-type: none;
+    }
+    
+    .menu li a:hover{
+        background-color: rgba(255, 255, 255, 0.473);
+        color: rgb(0, 8, 5);
+    }
+
+    .main_block{
+        border: 5px solid rgb(179, 9, 247);
+    
+    }
+    
+    .main{
+        border: 1px solid rgb(76, 224, 17);
+        display: flex;
+        flex-direction:column;
+        /* margin: 20px 20px;
+        padding: 20px 20px; */
+    
+    }
+    
+    .articles{
+        border: 1px solid rgb(243, 98, 14);
+        /* margin: 20px 20px;
+        padding: 20px 20px; */
+    }
+    
+    .asaids{
+        border: 1px solid rgb(219, 4, 247);
+        /* margin: 20px 20px;
+        padding: 20px 20px; */
+    }
+    
+    
+
+}

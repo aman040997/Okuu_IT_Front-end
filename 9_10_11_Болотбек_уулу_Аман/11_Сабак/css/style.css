@@ -1,0 +1,48 @@
+body{
+    margin: 20px;
+}
+
+.block{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(218, 211, 203);
+}
+
+.block-1{
+    background-color: rgb(145, 86, 62);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.block-2{
+    background-color: #3777a5;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 60;
+    left: 271px;
+    top: 15px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+.block-3{
+    /* background-color: green; */
+    background-color: chartreuse;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 60;
+    left: 190px;
+    bottom: 247px;
+    text-align: center;
+    opacity: 0.5;
+}

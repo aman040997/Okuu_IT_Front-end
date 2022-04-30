@@ -1,0 +1,30 @@
+body{
+    padding: 30px;
+    background: url(../img/scale_1200.webp) 100%/100%;
+
+
+
+}
+
+
+.block{
+    /* background-color: blue; */
+    background: url(../img/2.jpg) 50%/100%;
+    background-repeat:unset;
+    margin: auto;
+    border: 3px solid red;
+    border-radius: 30px;
+    box-shadow: 0 0 100px #0000;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    
+}
+
+.text-background{
+    border: 2px dotted yellow;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    background: rgba(151, 173, 196, 0.7);
+
+}
